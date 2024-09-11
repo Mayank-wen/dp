@@ -1,0 +1,16 @@
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9fafb;
+  }
+  
+  .review-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .review-card:last-child {
+    margin-bottom: 0;
+  }
+  

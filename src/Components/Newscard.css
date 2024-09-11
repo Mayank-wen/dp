@@ -1,0 +1,89 @@
+Reset some basic styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for all news cards */
+.news-container {
+    padding: 10px 20px;
+}
+
+/* Individual news card */
+.News1Pic {
+    display: inline-flex;
+    height: 100px;
+    margin: 20px;
+    background-color: aliceblue;
+}
+
+.News1Pic img {
+    height: 100px;
+    width: 200px;
+}
+
+.News1 {
+    height: 100px;
+    width: 350px;
+    display: inline-flex;
+    font-family: "Proxima Nova", "Proxima Nova Fallback", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.News1 p {
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+a:link {
+    color: #231f20;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(1, 73, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d1795e;
+    text-decoration: none;
+}
+
+/* Specific story styles */
+.story1,
+.story2,
+.story3,
+.story4,
+.story5,
+.story6 {
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.story1 {
+    margin-right: 80px;
+}
+
+.story3 {
+    margin-right: 80px;
+}
+
+.story5 {
+    margin-right: 80px;
+}
+
+/* Loading and error messages */
+.loading, .error {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.error {
+    color: red;
+}

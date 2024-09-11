@@ -1,0 +1,34 @@
+.doctor-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px;
+    padding: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctor-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.doctor-details {
+    text-align: center;
+    padding: 10px;
+}
+
+.doctor-details h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.doctor-details p {
+    margin: 5px 0;
+    font-size: 1em;
+}
